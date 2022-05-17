@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url("../images/LOGOS-1.png");
+}
+
+main{
+  width: 1024px;
+  background: rgb(232, 216, 216);
+  margin: 0 auto;
+}
+
+header{
+  padding: 20px;
+}
+
+.logo{
+  width: 30%;
+  float: left;
+  justify-content: center;
+}
+
+.logo img{
+  width: 300px;
+}
+
+nav{
+  margin-top: 60px;
+  width: 60%;
+  float: right;
+}
+
+nav ul{
+
+}
+
+nav ul li{
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+nav ul li a{
+  text-decoration: none;
+  background: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav ul li a:hover{
+  background: rgb(246, 246, 246);
+}
+
+section{
+  padding: 20px;
+}
+
+.redBull{
+  width: 30%;
+  float: right;
+}
+
+.texto-lateral{
+  float: left;
+  width: 65%;
+  margin-top: 10px;
+  text-align: justify;
+  font-family: cursive;
+}
+
+.formulario{
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.clear{
+  clear: both;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: cursive;
+  text-shadow: 0px 0px 10px #ff0000;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: cursive;
+  text-shadow: 0px 0px 10px #ff0000;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: cursive;
+  text-shadow: 0px 0px 10px #ff0000;
+}
+h5 {
+  font-size: 20px;
+  font-family: cursive;
+  text-shadow: 0px 0px 10px #ff0000;
+}
+
+#myBody {
+  background: url("../images/fondo3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#imgagen {
+  width: 200%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamilton {
+  width: 50%;
+}
+
+#myMain{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5rem;
+  opacity: 80%;
+  background: #ffffff;
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.borrar {
+  padding: 5px;
+  font-size: 13px;
+  color: #ffffff;
+  background-color: #ff0000;
+  border-radius: 4px;
+  border: 2px solid #000000;
+}
+
+.enviar {
+  padding: 5px;
+  font-size: 13px;
+  color: #ffffff;
+  background-color: #ff0000;
+  border-radius: 4px;
+  border: 2px solid #000000;
+}
+
+.texto {
+  font-family: cursive;
+}
+
+.texto1 {
+  font-family: cursive;
+  text-shadow: 0px 0px 5px #000000;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "icon" href="https://soymotor.com/sites/default/files/styles/mega/public/imagenes/noticia/logo-f1-liberty-soymotor.jpg?itok=UcJIqEjw">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inscripción</title>
+</head>
+<body id="myBody">
+  <main id="myMain">
+    <section class="formulario">
+        <form>
+          <h2>Practica para la F1</h2>
+          <br>
+          <label for="nombre">Nombre:</label><br>
+          <input type="text" id="nombre" placeholder="Escriba su nombre"><br>
+          <label for="apellido">Apellido: *</label><br>
+              <input type="text" id="apellido" placeholder="Escriba su apellido" maxlength="25" minlength="5" required><br>
+          <label for="edad">Edad: </label><br>
+              <input type="number" id="edad" placeholder="Escriba su edad"><br>
+          <label for="email">Correo electronico: *</label><br>
+              <input type="email" id="email" required><br>
+          <label for="password">Contraseña: *</label><br>
+              <input type="password" id="password" required minlength="8"><br>
+          <label for="tel">Telefono:</label><br>
+              <input type="tel" id="tel" placeholder="Celular"><br>
+          <label for="date">Fecha de Nacimiento: *</label><br>
+              <input type="date" id="date" required><br>
+          <div><br>
+            <h4>Nivel de Conducción</h4>
+            <input type="radio" name="conect" id="Principiante"> 
+            <label for="Principiante">Principiante</label>
+            <input type="radio" name="conect" id="Regular"> 
+            <label for="Regular">Regular</label>
+            <input type="radio" name="conect" id="Experto"> 
+            <label for="Experto">Experto</label>
+          </div><br>
+          <div>
+            <h5>¿Discapacidades?(Selección multiple)</h5>
+            <input type="checkbox" name="Trastorno del habla" id="Trastorno del habla"> 
+            <label for="Trastorno del habla">Trastorno del habla</label><br>
+            <input type="checkbox" name="Esquizofrenia" id="Esquizofrenia"> 
+            <label for="Esquizofrenia">Esquizofrenia</label><br>
+            <input type="checkbox" name="Asma" id="Asma"> 
+            <label for="Asma">Asma</label><br>
+            <input type="checkbox" name="Parálisis Cerebral" id="Parálisis Cerebral"> 
+            <label for="Parálisis Cerebral">Parálisis Cerebral</label><br>
+            <input type="checkbox" name="Problemas de audición" id="Problemas de audición"> 
+            <label for="Problemas de audición">Problemas de audición</label><br>
+            <input type="checkbox" name="Diabetes" id="Diabetes"> 
+            <label for="Diabetes">Diabetes</label><br>
+            <input type="checkbox" name="Ninguna de las anteriores" id="Ninguna de las anteriores"> 
+            <label for="Ninguna de las anteriores">Ninguna de las anteriores</label>
+          </div><br>
+          <br>
+          <input class="borrar" type="reset" value="Borrar">
+          <input class="enviar" type="submit" value="Enviar">
+        </form>
+      </section>
+    </main>
+  </body>
+  </html>
+</body>
+</html>
